@@ -14,6 +14,8 @@
 		BEA15C581BBD39CB0024497D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA15C561BBD39CB0024497D /* LaunchScreen.storyboard */; };
 		BEA15C631BBD39CB0024497D /* ScoreCalculatorTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA15C621BBD39CB0024497D /* ScoreCalculatorTestCase.swift */; };
 		BEA15C6E1BBD412F0024497D /* ScoreCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA15C6D1BBD412F0024497D /* ScoreCalculator.swift */; settings = {ASSET_TAGS = (); }; };
+		BEA15C751BBD5F470024497D /* FrameTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA15C741BBD5F470024497D /* FrameTestCase.swift */; settings = {ASSET_TAGS = (); }; };
+		BEA15C771BBD5FE80024497D /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA15C761BBD5FE80024497D /* Frame.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		BEA15C621BBD39CB0024497D /* ScoreCalculatorTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCalculatorTestCase.swift; sourceTree = "<group>"; };
 		BEA15C641BBD39CB0024497D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEA15C6D1BBD412F0024497D /* ScoreCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreCalculator.swift; sourceTree = "<group>"; };
+		BEA15C741BBD5F470024497D /* FrameTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameTestCase.swift; sourceTree = "<group>"; };
+		BEA15C761BBD5FE80024497D /* Frame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Frame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 			children = (
 				BEA15C711BBD5CD10024497D /* App */,
 				BEA15C6D1BBD412F0024497D /* ScoreCalculator.swift */,
+				BEA15C761BBD5FE80024497D /* Frame.swift */,
 				BEA15C591BBD39CB0024497D /* Info.plist */,
 			);
 			path = "kata-bowling";
@@ -90,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				BEA15C621BBD39CB0024497D /* ScoreCalculatorTestCase.swift */,
+				BEA15C741BBD5F470024497D /* FrameTestCase.swift */,
 				BEA15C641BBD39CB0024497D /* Info.plist */,
 			);
 			path = "kata-bowlingTests";
@@ -208,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEA15C6E1BBD412F0024497D /* ScoreCalculator.swift in Sources */,
+				BEA15C771BBD5FE80024497D /* Frame.swift in Sources */,
 				BEA15C501BBD39CB0024497D /* ViewController.swift in Sources */,
 				BEA15C4E1BBD39CB0024497D /* AppDelegate.swift in Sources */,
 			);
@@ -218,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEA15C631BBD39CB0024497D /* ScoreCalculatorTestCase.swift in Sources */,
+				BEA15C751BBD5F470024497D /* FrameTestCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
