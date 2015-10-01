@@ -12,6 +12,8 @@
 		BEA15C531BBD39CB0024497D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA15C511BBD39CB0024497D /* Main.storyboard */; };
 		BEA15C551BBD39CB0024497D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEA15C541BBD39CB0024497D /* Assets.xcassets */; };
 		BEA15C581BBD39CB0024497D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA15C561BBD39CB0024497D /* LaunchScreen.storyboard */; };
+		BEA15C631BBD39CB0024497D /* ScoreCalculatorTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA15C621BBD39CB0024497D /* ScoreCalculatorTestCase.swift */; };
+		BEA15C6E1BBD412F0024497D /* ScoreCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA15C6D1BBD412F0024497D /* ScoreCalculator.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +35,9 @@
 		BEA15C571BBD39CB0024497D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEA15C591BBD39CB0024497D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEA15C5E1BBD39CB0024497D /* kata-bowlingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kata-bowlingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA15C621BBD39CB0024497D /* ScoreCalculatorTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreCalculatorTestCase.swift; sourceTree = "<group>"; };
 		BEA15C641BBD39CB0024497D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEA15C6D1BBD412F0024497D /* ScoreCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				BEA15C711BBD5CD10024497D /* App */,
+				BEA15C6D1BBD412F0024497D /* ScoreCalculator.swift */,
 				BEA15C591BBD39CB0024497D /* Info.plist */,
 			);
 			path = "kata-bowling";
@@ -84,6 +89,7 @@
 		BEA15C611BBD39CB0024497D /* kata-bowlingTests */ = {
 			isa = PBXGroup;
 			children = (
+				BEA15C621BBD39CB0024497D /* ScoreCalculatorTestCase.swift */,
 				BEA15C641BBD39CB0024497D /* Info.plist */,
 			);
 			path = "kata-bowlingTests";
@@ -201,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEA15C6E1BBD412F0024497D /* ScoreCalculator.swift in Sources */,
 				BEA15C501BBD39CB0024497D /* ViewController.swift in Sources */,
 				BEA15C4E1BBD39CB0024497D /* AppDelegate.swift in Sources */,
 			);
@@ -210,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEA15C631BBD39CB0024497D /* ScoreCalculatorTestCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
