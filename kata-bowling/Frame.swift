@@ -7,11 +7,12 @@
 //
 
 struct Frame {
+
     let firstRoll: Int
     let secondRoll: Int
     
-    init(first: Int, second: Int) {
-        firstRoll = first
-        secondRoll = second
-    }
+//    init(first: Int, second: Int) {
+//        firstRoll = first
+//        secondRoll = second
+//    }
 }

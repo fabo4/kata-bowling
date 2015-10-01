@@ -14,6 +14,7 @@ struct Constant {
 class RollsParser {
     
     func framesFromRolls(rolls: Array<Int>) -> Array<Frame> {
+        
         var remainingRolls = rolls
         var frames: Array<Frame> = []
         
@@ -26,7 +27,7 @@ class RollsParser {
                 secondRoll = remainingRolls.removeFirst()
             }
             
-            let frame = Frame(first: firstRoll, second: secondRoll)
+            let frame = Frame(firstRoll: firstRoll, secondRoll: secondRoll)
             
             frames.append(frame)
         }

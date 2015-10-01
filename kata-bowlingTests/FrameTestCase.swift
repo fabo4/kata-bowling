@@ -12,8 +12,9 @@ import XCTest
 class FrameTestCase: XCTestCase {
     
     func testFrame() {
-        let frame = Frame(first: 4, second: 5)
+        let frame = Frame(firstRoll: 4, secondRoll: 5)
         XCTAssertEqual(frame.firstRoll, 4)
         XCTAssertEqual(frame.secondRoll, 5)
     }
+    
 }
