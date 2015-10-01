@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEA15C4E1BBD39CB0024497D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA15C4D1BBD39CB0024497D /* AppDelegate.swift */; };
+		BEA15C501BBD39CB0024497D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA15C4F1BBD39CB0024497D /* ViewController.swift */; };
+		BEA15C531BBD39CB0024497D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA15C511BBD39CB0024497D /* Main.storyboard */; };
+		BEA15C551BBD39CB0024497D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEA15C541BBD39CB0024497D /* Assets.xcassets */; };
+		BEA15C581BBD39CB0024497D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA15C561BBD39CB0024497D /* LaunchScreen.storyboard */; };
+		BEA15C631BBD39CB0024497D /* kata_bowlingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA15C621BBD39CB0024497D /* kata_bowlingTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEA15C5F1BBD39CB0024497D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEA15C421BBD39CA0024497D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEA15C491BBD39CB0024497D;
+			remoteInfo = "kata-bowling";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BEA15C4A1BBD39CB0024497D /* kata-bowling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kata-bowling.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA15C4D1BBD39CB0024497D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEA15C4F1BBD39CB0024497D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEA15C521BBD39CB0024497D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEA15C541BBD39CB0024497D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEA15C571BBD39CB0024497D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEA15C591BBD39CB0024497D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEA15C5E1BBD39CB0024497D /* kata-bowlingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kata-bowlingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEA15C621BBD39CB0024497D /* kata_bowlingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kata_bowlingTests.swift; sourceTree = "<group>"; };
+		BEA15C641BBD39CB0024497D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEA15C471BBD39CB0024497D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA15C5B1BBD39CB0024497D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEA15C411BBD39CA0024497D = {
+			isa = PBXGroup;
+			children = (
+				BEA15C4C1BBD39CB0024497D /* kata-bowling */,
+				BEA15C611BBD39CB0024497D /* kata-bowlingTests */,
+				BEA15C4B1BBD39CB0024497D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEA15C4B1BBD39CB0024497D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEA15C4A1BBD39CB0024497D /* kata-bowling.app */,
+				BEA15C5E1BBD39CB0024497D /* kata-bowlingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEA15C4C1BBD39CB0024497D /* kata-bowling */ = {
+			isa = PBXGroup;
+			children = (
+				BEA15C4D1BBD39CB0024497D /* AppDelegate.swift */,
+				BEA15C4F1BBD39CB0024497D /* ViewController.swift */,
+				BEA15C511BBD39CB0024497D /* Main.storyboard */,
+				BEA15C541BBD39CB0024497D /* Assets.xcassets */,
+				BEA15C561BBD39CB0024497D /* LaunchScreen.storyboard */,
+				BEA15C591BBD39CB0024497D /* Info.plist */,
+			);
+			path = "kata-bowling";
+			sourceTree = "<group>";
+		};
+		BEA15C611BBD39CB0024497D /* kata-bowlingTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEA15C621BBD39CB0024497D /* kata_bowlingTests.swift */,
+				BEA15C641BBD39CB0024497D /* Info.plist */,
+			);
+			path = "kata-bowlingTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEA15C491BBD39CB0024497D /* kata-bowling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEA15C671BBD39CB0024497D /* Build configuration list for PBXNativeTarget "kata-bowling" */;
+			buildPhases = (
+				BEA15C461BBD39CB0024497D /* Sources */,
+				BEA15C471BBD39CB0024497D /* Frameworks */,
+				BEA15C481BBD39CB0024497D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "kata-bowling";
+			productName = "kata-bowling";
+			productReference = BEA15C4A1BBD39CB0024497D /* kata-bowling.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEA15C5D1BBD39CB0024497D /* kata-bowlingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEA15C6A1BBD39CB0024497D /* Build configuration list for PBXNativeTarget "kata-bowlingTests" */;
+			buildPhases = (
+				BEA15C5A1BBD39CB0024497D /* Sources */,
+				BEA15C5B1BBD39CB0024497D /* Frameworks */,
+				BEA15C5C1BBD39CB0024497D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEA15C601BBD39CB0024497D /* PBXTargetDependency */,
+			);
+			name = "kata-bowlingTests";
+			productName = "kata-bowlingTests";
+			productReference = BEA15C5E1BBD39CB0024497D /* kata-bowlingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEA15C421BBD39CA0024497D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Ondrej Fabian";
+				TargetAttributes = {
+					BEA15C491BBD39CB0024497D = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					BEA15C5D1BBD39CB0024497D = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = BEA15C491BBD39CB0024497D;
+					};
+				};
+			};
+			buildConfigurationList = BEA15C451BBD39CA0024497D /* Build configuration list for PBXProject "kata-bowling" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEA15C411BBD39CA0024497D;
+			productRefGroup = BEA15C4B1BBD39CB0024497D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEA15C491BBD39CB0024497D /* kata-bowling */,
+				BEA15C5D1BBD39CB0024497D /* kata-bowlingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEA15C481BBD39CB0024497D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA15C581BBD39CB0024497D /* LaunchScreen.storyboard in Resources */,
+				BEA15C551BBD39CB0024497D /* Assets.xcassets in Resources */,
+				BEA15C531BBD39CB0024497D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA15C5C1BBD39CB0024497D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEA15C461BBD39CB0024497D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA15C501BBD39CB0024497D /* ViewController.swift in Sources */,
+				BEA15C4E1BBD39CB0024497D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEA15C5A1BBD39CB0024497D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEA15C631BBD39CB0024497D /* kata_bowlingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEA15C601BBD39CB0024497D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEA15C491BBD39CB0024497D /* kata-bowling */;
+			targetProxy = BEA15C5F1BBD39CB0024497D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEA15C511BBD39CB0024497D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEA15C521BBD39CB0024497D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEA15C561BBD39CB0024497D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEA15C571BBD39CB0024497D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEA15C651BBD39CB0024497D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEA15C661BBD39CB0024497D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEA15C681BBD39CB0024497D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "kata-bowling/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cz.fabo.kata-bowling";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BEA15C691BBD39CB0024497D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "kata-bowling/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cz.fabo.kata-bowling";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BEA15C6B1BBD39CB0024497D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "kata-bowlingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cz.fabo.kata-bowlingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kata-bowling.app/kata-bowling";
+			};
+			name = Debug;
+		};
+		BEA15C6C1BBD39CB0024497D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "kata-bowlingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cz.fabo.kata-bowlingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kata-bowling.app/kata-bowling";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEA15C451BBD39CA0024497D /* Build configuration list for PBXProject "kata-bowling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA15C651BBD39CB0024497D /* Debug */,
+				BEA15C661BBD39CB0024497D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEA15C671BBD39CB0024497D /* Build configuration list for PBXNativeTarget "kata-bowling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA15C681BBD39CB0024497D /* Debug */,
+				BEA15C691BBD39CB0024497D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BEA15C6A1BBD39CB0024497D /* Build configuration list for PBXNativeTarget "kata-bowlingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA15C6B1BBD39CB0024497D /* Debug */,
+				BEA15C6C1BBD39CB0024497D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEA15C421BBD39CA0024497D /* Project object */;
+}
