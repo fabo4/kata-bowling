@@ -1,5 +1,5 @@
 //
-//  Frame.swift
+//  FrameTestCase.swift
 //  kata-bowling
 //
 //  Created by Ondrej Fabian on 01/10/2015.
