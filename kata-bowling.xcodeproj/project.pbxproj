@@ -88,9 +88,9 @@
 			isa = PBXGroup;
 			children = (
 				BEA15C711BBD5CD10024497D /* App */,
+				BEA15C7E1BBD9BEF0024497D /* Input Processing */,
+				BEA15C7F1BBD9C000024497D /* Domain */,
 				BEA15C6D1BBD412F0024497D /* ScoreCalculator.swift */,
-				BEA15C781BBD7C570024497D /* RollsParser.swift */,
-				BEA15C761BBD5FE80024497D /* Frame.swift */,
 				BEA15C591BBD39CB0024497D /* Info.plist */,
 			);
 			path = "kata-bowling";
@@ -117,6 +117,22 @@
 				BEA15C561BBD39CB0024497D /* LaunchScreen.storyboard */,
 			);
 			name = App;
+			sourceTree = "<group>";
+		};
+		BEA15C7E1BBD9BEF0024497D /* Input Processing */ = {
+			isa = PBXGroup;
+			children = (
+				BEA15C781BBD7C570024497D /* RollsParser.swift */,
+			);
+			name = "Input Processing";
+			sourceTree = "<group>";
+		};
+		BEA15C7F1BBD9C000024497D /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				BEA15C761BBD5FE80024497D /* Frame.swift */,
+			);
+			name = Domain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
