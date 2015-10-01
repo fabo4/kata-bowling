@@ -18,6 +18,8 @@
 		BEA15C771BBD5FE80024497D /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA15C761BBD5FE80024497D /* Frame.swift */; settings = {ASSET_TAGS = (); }; };
 		BEA15C791BBD7C570024497D /* RollsParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA15C781BBD7C570024497D /* RollsParser.swift */; settings = {ASSET_TAGS = (); }; };
 		BEA15C7B1BBD7C710024497D /* RollsParserTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA15C7A1BBD7C710024497D /* RollsParserTestCase.swift */; settings = {ASSET_TAGS = (); }; };
+		BEA15C821BBDA47C0024497D /* FramesPrinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA15C811BBDA47C0024497D /* FramesPrinter.swift */; settings = {ASSET_TAGS = (); }; };
+		BEA15C861BBDA90E0024497D /* FramePrinterTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA15C851BBDA90E0024497D /* FramePrinterTestCase.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		BEA15C761BBD5FE80024497D /* Frame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Frame.swift; sourceTree = "<group>"; };
 		BEA15C781BBD7C570024497D /* RollsParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RollsParser.swift; path = ../RollsParser.swift; sourceTree = "<group>"; };
 		BEA15C7A1BBD7C710024497D /* RollsParserTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RollsParserTestCase.swift; sourceTree = "<group>"; };
+		BEA15C811BBDA47C0024497D /* FramesPrinter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FramesPrinter.swift; sourceTree = "<group>"; };
+		BEA15C851BBDA90E0024497D /* FramePrinterTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FramePrinterTestCase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,7 @@
 			children = (
 				BEA15C711BBD5CD10024497D /* App */,
 				BEA15C7E1BBD9BEF0024497D /* Input Processing */,
+				BEA15C801BBDA4200024497D /* Output */,
 				BEA15C7F1BBD9C000024497D /* Domain */,
 				BEA15C6D1BBD412F0024497D /* ScoreCalculator.swift */,
 				BEA15C591BBD39CB0024497D /* Info.plist */,
@@ -102,6 +107,7 @@
 				BEA15C621BBD39CB0024497D /* ScoreCalculatorTestCase.swift */,
 				BEA15C741BBD5F470024497D /* FrameTestCase.swift */,
 				BEA15C7A1BBD7C710024497D /* RollsParserTestCase.swift */,
+				BEA15C851BBDA90E0024497D /* FramePrinterTestCase.swift */,
 				BEA15C641BBD39CB0024497D /* Info.plist */,
 			);
 			path = "kata-bowlingTests";
@@ -133,6 +139,14 @@
 				BEA15C761BBD5FE80024497D /* Frame.swift */,
 			);
 			name = Domain;
+			sourceTree = "<group>";
+		};
+		BEA15C801BBDA4200024497D /* Output */ = {
+			isa = PBXGroup;
+			children = (
+				BEA15C811BBDA47C0024497D /* FramesPrinter.swift */,
+			);
+			name = Output;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +253,7 @@
 				BEA15C771BBD5FE80024497D /* Frame.swift in Sources */,
 				BEA15C791BBD7C570024497D /* RollsParser.swift in Sources */,
 				BEA15C501BBD39CB0024497D /* ViewController.swift in Sources */,
+				BEA15C821BBDA47C0024497D /* FramesPrinter.swift in Sources */,
 				BEA15C4E1BBD39CB0024497D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEA15C861BBDA90E0024497D /* FramePrinterTestCase.swift in Sources */,
 				BEA15C631BBD39CB0024497D /* ScoreCalculatorTestCase.swift in Sources */,
 				BEA15C7B1BBD7C710024497D /* RollsParserTestCase.swift in Sources */,
 				BEA15C751BBD5F470024497D /* FrameTestCase.swift in Sources */,
