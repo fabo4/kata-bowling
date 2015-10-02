@@ -1,5 +1,5 @@
 //
-//  FramesPrinter.swift
+//  GamePrinter.swift
 //  kata-bowling
 //
 //  Created by Ondrej Fabian on 01/10/2015.
@@ -8,18 +8,18 @@
 
 //import Foundation
 
-class FramesPrinter {
+class GamePrinter {
     
-    func printFrames(frames: Array<Frame>) {
+    func printGame(game: Game) {
         
         var topLine: String = " "
         var paddingLine: String = "|"
         var scoreLine: String = "|"
         
-        for frame in frames {
+        for frame in game.frames {
             topLine.appendContentsOf("----- ")
             paddingLine.appendContentsOf("     |")
-            scoreLine.appendContentsOf(String(format: " \(indentedStringFromRoll(frame.firstRoll)) \(indentedStringFromRoll(frame.secondRoll)) |"))
+            scoreLine.appendContentsOf(String(format: " \(stringFromRoll(frame.firstRoll)) \(stringFromPossibleRoll(frame.secondRoll)) |"))
         }
         
         print(topLine)
@@ -29,15 +29,19 @@ class FramesPrinter {
         print(topLine)
     }
     
-    private func indentedStringFromRoll(roll: Int) -> String {
-        switch roll {
-        case 0:
+    private func stringFromPossibleRoll(possibleRoll: Int?) -> String {
+        if let roll = possibleRoll {
+            return stringFromRoll(roll)
+        } else {
             return "-"
-        case 10:
+        }
+    }
+    
+    private func stringFromRoll(roll: Int) -> String {
+        if (roll == 10) {
             return "X"
-        default:
+        } else {
             return String(roll)
         }
-        
     }
 }

@@ -16,5 +16,4 @@ class FrameTestCase: XCTestCase {
         XCTAssertEqual(frame.firstRoll, 4)
         XCTAssertEqual(frame.secondRoll, 5)
     }
-    
 }

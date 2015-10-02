@@ -9,18 +9,20 @@
 import XCTest
 @testable import kata_bowling
 
-class ScoreCalculatorTestCase: XCTestCase {
+class CalculateGameScoreTestCase: XCTestCase {
     
-    let scoreCalculator = ScoreCalculator()
+    let scoreCalculator = CalculateGameScore(rollsParser: Parser())
     
-    func testAllPairsOfNineAndMiss() {
-        XCTAssertEqual(90, scoreCalculator.calculateScore([9, 0, 9, 0, 9, 0, 9, 0, 9, 0, 9, 0, 9, 0, 9, 0, 9, 0, 9, 0]));
-    }
+//    func testAllPairsOfNineAndMiss() {
+//
+//        
+//        XCTAssertEqual(90, scoreCalculator.calculateScore([9, 0, 9, 0, 9, 0, 9, 0, 9, 0, 9, 0, 9, 0, 9, 0, 9, 0, 9, 0]));
+//    }
 
 //    func testAllStrikes() {
 //        XCTAssertEqual(300, scoreCalculator.calculateScore([10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10]));
 //    }
-    
+//    
 //    func testAllSparesAndBonusFive() {
 //        XCTAssertEqual(150, scoreCalculator.calculateScore([5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]));
 //    }

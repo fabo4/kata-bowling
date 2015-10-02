@@ -14,7 +14,9 @@ class FramePrinterTestCase: XCTestCase {
     func testPrint() {
 //        let rolls = [9, 0, 9, 0, 9, 0, 9, 0, 9, 0, 9, 0, 9, 0, 9, 0, 9, 0, 9, 0]
         let rolls = [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10]
-        let frames = RollsParser().framesFromRolls(rolls)
-        FramesPrinter().printFrames(frames)
+
+        let game = Parser().parseRollsIntoGame(rolls)
+        
+        GamePrinter().printGame(game)
     }
 }

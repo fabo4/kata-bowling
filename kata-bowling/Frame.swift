@@ -6,13 +6,49 @@
 //  Copyright © 2015 Ondrej Fabian. All rights reserved.
 //
 
-struct Frame {
-
-    let firstRoll: Int
-    let secondRoll: Int
+class Frame {
     
-//    init(first: Int, second: Int) {
-//        firstRoll = first
-//        secondRoll = second
-//    }
+    let rolls: Array<Int>
+    
+    var firstRoll : Int {
+        get {
+            return rolls.first!
+        }
+    }
+    
+    var secondRoll : Int? {
+        get {
+            if (rolls.count > 1) {
+                return rolls[1]
+            } else {
+                return nil
+            }
+        }
+    }
+    
+    var thirdRoll : Int? {
+        get {
+            if (rolls.count > 2) {
+                return rolls[2]
+            } else {
+                return nil
+            }
+        }
+    }
+    
+    init(rolls: Array<Int>) {
+        self.rolls = rolls
+    }
+    
+    init(firstRoll: Int) {
+        rolls = [firstRoll]
+    }
+    
+    init(firstRoll: Int, secondRoll: Int) {
+        rolls = [firstRoll, secondRoll]
+    }
+    
+    init(firstRoll: Int, secondRoll: Int, thirdRoll: Int) {
+        rolls = [firstRoll, secondRoll, thirdRoll]
+    }
 }
