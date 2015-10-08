@@ -6,11 +6,6 @@
 //  Copyright © 2015 Ondrej Fabian. All rights reserved.
 //
 
-
-protocol RollsParser {
-    func parseRollsIntoGame(rolls: Array<Int>) -> Game
-}
-
 class CalculateGameScore {
 
     let parser: RollsParser
@@ -22,8 +17,15 @@ class CalculateGameScore {
     
     func calculateScore(game: Game) -> Int {
         
-        return -1
+        var score = 0
+
+        for (idx, frame) in game.frames.enumerate() {
+            if (idx == Constant.LastFrame) {
+                frame.scoringStrategy = LastFrameScoreCalculationStrategy()
+            }
+            score += frame.getScore(Array(game.frames.suffixFrom(idx+1)))
+        }
         
-//        return rolls.reduce(0, combine: +)
+        return score
     }
 }

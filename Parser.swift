@@ -6,10 +6,15 @@
 //  Copyright © 2015 Ondrej Fabian. All rights reserved.
 //
 
-
 struct Constant {
     static let Strike = 10
+    static let Spare = 10
     static let PenultimateFrame = 9
+    static let LastFrame = 10
+}
+
+protocol RollsParser {
+    func parseRollsIntoGame(rolls: Array<Int>) -> Game
 }
 
 class Parser : RollsParser {
@@ -37,7 +42,6 @@ class Parser : RollsParser {
             let lastFrame = Frame(rolls: remainingRolls)
             remainingRolls.removeAll()
             return lastFrame
-            
         } else {
             return parseOneFrame()
         }

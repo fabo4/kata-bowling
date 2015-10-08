@@ -6,9 +6,15 @@
 //  Copyright © 2015 Ondrej Fabian. All rights reserved.
 //
 
+protocol ScoreCalculationStrategy {
+    func score(frame: Frame, followingFrames: Array<Frame>) -> Int
+}
+
 class Frame {
     
     let rolls: Array<Int>
+    
+    var scoringStrategy : ScoreCalculationStrategy = DefaultScoreCalculationStrategy()
     
     var firstRoll : Int {
         get {
@@ -50,5 +56,9 @@ class Frame {
     
     init(firstRoll: Int, secondRoll: Int, thirdRoll: Int) {
         rolls = [firstRoll, secondRoll, thirdRoll]
+    }
+    
+    func getScore(followingFrames: Array<Frame>) -> Int {
+        return self.scoringStrategy.score(self, followingFrames: followingFrames)
     }
 }

@@ -8,20 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		BE4735061BBE814000688B45 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4735051BBE814000688B45 /* Game.swift */; settings = {ASSET_TAGS = (); }; };
-		BE47350C1BBE8B2900688B45 /* GameTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE47350B1BBE8B2900688B45 /* GameTestCase.swift */; settings = {ASSET_TAGS = (); }; };
 		BEA15C4E1BBD39CB0024497D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA15C4D1BBD39CB0024497D /* AppDelegate.swift */; };
 		BEA15C501BBD39CB0024497D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA15C4F1BBD39CB0024497D /* ViewController.swift */; };
 		BEA15C531BBD39CB0024497D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA15C511BBD39CB0024497D /* Main.storyboard */; };
 		BEA15C551BBD39CB0024497D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEA15C541BBD39CB0024497D /* Assets.xcassets */; };
 		BEA15C581BBD39CB0024497D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEA15C561BBD39CB0024497D /* LaunchScreen.storyboard */; };
-		BEA15C631BBD39CB0024497D /* GameScoreCalculatorTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA15C621BBD39CB0024497D /* GameScoreCalculatorTestCase.swift */; };
+		BEA15C631BBD39CB0024497D /* CalculateScoreTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA15C621BBD39CB0024497D /* CalculateScoreTestCase.swift */; };
 		BEA15C6E1BBD412F0024497D /* CalculateGameScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA15C6D1BBD412F0024497D /* CalculateGameScore.swift */; settings = {ASSET_TAGS = (); }; };
-		BEA15C751BBD5F470024497D /* FrameTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA15C741BBD5F470024497D /* FrameTestCase.swift */; settings = {ASSET_TAGS = (); }; };
+		BEA15C751BBD5F470024497D /* EntityTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA15C741BBD5F470024497D /* EntityTestCase.swift */; settings = {ASSET_TAGS = (); }; };
 		BEA15C771BBD5FE80024497D /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA15C761BBD5FE80024497D /* Frame.swift */; settings = {ASSET_TAGS = (); }; };
 		BEA15C791BBD7C570024497D /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA15C781BBD7C570024497D /* Parser.swift */; settings = {ASSET_TAGS = (); }; };
 		BEA15C7B1BBD7C710024497D /* RollsParserTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA15C7A1BBD7C710024497D /* RollsParserTestCase.swift */; settings = {ASSET_TAGS = (); }; };
-		BEA15C821BBDA47C0024497D /* FramesPrinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA15C811BBDA47C0024497D /* FramesPrinter.swift */; settings = {ASSET_TAGS = (); }; };
+		BEA15C821BBDA47C0024497D /* GamePrinter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA15C811BBDA47C0024497D /* GamePrinter.swift */; settings = {ASSET_TAGS = (); }; };
 		BEA15C861BBDA90E0024497D /* FramePrinterTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA15C851BBDA90E0024497D /* FramePrinterTestCase.swift */; settings = {ASSET_TAGS = (); }; };
+		BED782E41BC547F700F3CD14 /* DefaultScoreCalculationStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED782E31BC547F700F3CD14 /* DefaultScoreCalculationStrategy.swift */; settings = {ASSET_TAGS = (); }; };
+		BED782E61BC5548D00F3CD14 /* LastFrameScoreCalculationStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED782E51BC5548D00F3CD14 /* LastFrameScoreCalculationStrategy.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 
 /* Begin PBXFileReference section */
 		BE4735051BBE814000688B45 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
-		BE47350B1BBE8B2900688B45 /* GameTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameTestCase.swift; sourceTree = "<group>"; };
 		BEA15C4A1BBD39CB0024497D /* kata-bowling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kata-bowling.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEA15C4D1BBD39CB0024497D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BEA15C4F1BBD39CB0024497D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -45,15 +45,17 @@
 		BEA15C571BBD39CB0024497D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BEA15C591BBD39CB0024497D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEA15C5E1BBD39CB0024497D /* kata-bowlingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kata-bowlingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEA15C621BBD39CB0024497D /* GameScoreCalculatorTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScoreCalculatorTestCase.swift; sourceTree = "<group>"; };
+		BEA15C621BBD39CB0024497D /* CalculateScoreTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateScoreTestCase.swift; sourceTree = "<group>"; };
 		BEA15C641BBD39CB0024497D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEA15C6D1BBD412F0024497D /* CalculateGameScore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculateGameScore.swift; sourceTree = "<group>"; };
-		BEA15C741BBD5F470024497D /* FrameTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameTestCase.swift; sourceTree = "<group>"; };
+		BEA15C741BBD5F470024497D /* EntityTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntityTestCase.swift; sourceTree = "<group>"; };
 		BEA15C761BBD5FE80024497D /* Frame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Frame.swift; sourceTree = "<group>"; };
 		BEA15C781BBD7C570024497D /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = ../Parser.swift; sourceTree = "<group>"; };
 		BEA15C7A1BBD7C710024497D /* RollsParserTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RollsParserTestCase.swift; sourceTree = "<group>"; };
-		BEA15C811BBDA47C0024497D /* FramesPrinter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FramesPrinter.swift; sourceTree = "<group>"; };
+		BEA15C811BBDA47C0024497D /* GamePrinter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamePrinter.swift; sourceTree = "<group>"; };
 		BEA15C851BBDA90E0024497D /* FramePrinterTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FramePrinterTestCase.swift; sourceTree = "<group>"; };
+		BED782E31BC547F700F3CD14 /* DefaultScoreCalculationStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultScoreCalculationStrategy.swift; sourceTree = "<group>"; };
+		BED782E51BC5548D00F3CD14 /* LastFrameScoreCalculationStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LastFrameScoreCalculationStrategy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,25 +81,27 @@
 			children = (
 				BEA15C7E1BBD9BEF0024497D /* Input Processing */,
 				BE4735121BBEE35400688B45 /* Presentation */,
-				BE4735101BBEE30600688B45 /* Domain */,
+				BE4735101BBEE30600688B45 /* Entity */,
 				BEA15C6D1BBD412F0024497D /* CalculateGameScore.swift */,
 			);
 			name = "Score Calculator";
 			sourceTree = "<group>";
 		};
-		BE4735101BBEE30600688B45 /* Domain */ = {
+		BE4735101BBEE30600688B45 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
 				BEA15C761BBD5FE80024497D /* Frame.swift */,
 				BE4735051BBE814000688B45 /* Game.swift */,
+				BED782E31BC547F700F3CD14 /* DefaultScoreCalculationStrategy.swift */,
+				BED782E51BC5548D00F3CD14 /* LastFrameScoreCalculationStrategy.swift */,
 			);
-			name = Domain;
+			name = Entity;
 			sourceTree = "<group>";
 		};
 		BE4735121BBEE35400688B45 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
-				BEA15C811BBDA47C0024497D /* FramesPrinter.swift */,
+				BEA15C811BBDA47C0024497D /* GamePrinter.swift */,
 			);
 			name = Presentation;
 			sourceTree = "<group>";
@@ -133,9 +137,8 @@
 		BEA15C611BBD39CB0024497D /* kata-bowlingTests */ = {
 			isa = PBXGroup;
 			children = (
-				BEA15C621BBD39CB0024497D /* GameScoreCalculatorTestCase.swift */,
-				BEA15C741BBD5F470024497D /* FrameTestCase.swift */,
-				BE47350B1BBE8B2900688B45 /* GameTestCase.swift */,
+				BEA15C621BBD39CB0024497D /* CalculateScoreTestCase.swift */,
+				BEA15C741BBD5F470024497D /* EntityTestCase.swift */,
 				BEA15C7A1BBD7C710024497D /* RollsParserTestCase.swift */,
 				BEA15C851BBDA90E0024497D /* FramePrinterTestCase.swift */,
 				BEA15C641BBD39CB0024497D /* Info.plist */,
@@ -265,10 +268,12 @@
 			files = (
 				BEA15C6E1BBD412F0024497D /* CalculateGameScore.swift in Sources */,
 				BEA15C771BBD5FE80024497D /* Frame.swift in Sources */,
+				BED782E61BC5548D00F3CD14 /* LastFrameScoreCalculationStrategy.swift in Sources */,
 				BE4735061BBE814000688B45 /* Game.swift in Sources */,
 				BEA15C791BBD7C570024497D /* Parser.swift in Sources */,
 				BEA15C501BBD39CB0024497D /* ViewController.swift in Sources */,
-				BEA15C821BBDA47C0024497D /* FramesPrinter.swift in Sources */,
+				BED782E41BC547F700F3CD14 /* DefaultScoreCalculationStrategy.swift in Sources */,
+				BEA15C821BBDA47C0024497D /* GamePrinter.swift in Sources */,
 				BEA15C4E1BBD39CB0024497D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,11 +282,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE47350C1BBE8B2900688B45 /* GameTestCase.swift in Sources */,
 				BEA15C861BBDA90E0024497D /* FramePrinterTestCase.swift in Sources */,
-				BEA15C631BBD39CB0024497D /* GameScoreCalculatorTestCase.swift in Sources */,
+				BEA15C631BBD39CB0024497D /* CalculateScoreTestCase.swift in Sources */,
 				BEA15C7B1BBD7C710024497D /* RollsParserTestCase.swift in Sources */,
-				BEA15C751BBD5F470024497D /* FrameTestCase.swift in Sources */,
+				BEA15C751BBD5F470024497D /* EntityTestCase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
