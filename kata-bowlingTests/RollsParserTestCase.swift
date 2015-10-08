@@ -26,9 +26,9 @@ class ParserTestCase: XCTestCase {
         XCTAssertFalse(frames.isEmpty)
         XCTAssertEqual(frames.count, 1)
         
-        let frame1 = frames.first
-        XCTAssertEqual(frame1?.firstRoll, 4)
-        XCTAssertEqual(frame1?.secondRoll, 5)
+        let frame1 = frames.first!
+        XCTAssertEqual(frame1.firstRoll, 4)
+        XCTAssertEqual(frame1.secondRoll, 5)
     }
     
     func testFiveRollsIntoThreeFrame() {

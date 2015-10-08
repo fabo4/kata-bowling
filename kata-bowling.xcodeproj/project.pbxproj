@@ -80,8 +80,9 @@
 			isa = PBXGroup;
 			children = (
 				BEA15C7E1BBD9BEF0024497D /* Input Processing */,
-				BE4735121BBEE35400688B45 /* Presentation */,
+				BE4735121BBEE35400688B45 /* Score Printer */,
 				BE4735101BBEE30600688B45 /* Entity */,
+				BED782E71BC69DDC00F3CD14 /* Frame Score Calculation Strategy */,
 				BEA15C6D1BBD412F0024497D /* CalculateGameScore.swift */,
 			);
 			name = "Score Calculator";
@@ -92,18 +93,16 @@
 			children = (
 				BEA15C761BBD5FE80024497D /* Frame.swift */,
 				BE4735051BBE814000688B45 /* Game.swift */,
-				BED782E31BC547F700F3CD14 /* DefaultScoreCalculationStrategy.swift */,
-				BED782E51BC5548D00F3CD14 /* LastFrameScoreCalculationStrategy.swift */,
 			);
 			name = Entity;
 			sourceTree = "<group>";
 		};
-		BE4735121BBEE35400688B45 /* Presentation */ = {
+		BE4735121BBEE35400688B45 /* Score Printer */ = {
 			isa = PBXGroup;
 			children = (
 				BEA15C811BBDA47C0024497D /* GamePrinter.swift */,
 			);
-			name = Presentation;
+			name = "Score Printer";
 			sourceTree = "<group>";
 		};
 		BEA15C411BBD39CA0024497D = {
@@ -164,6 +163,15 @@
 				BEA15C781BBD7C570024497D /* Parser.swift */,
 			);
 			name = "Input Processing";
+			sourceTree = "<group>";
+		};
+		BED782E71BC69DDC00F3CD14 /* Frame Score Calculation Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				BED782E31BC547F700F3CD14 /* DefaultScoreCalculationStrategy.swift */,
+				BED782E51BC5548D00F3CD14 /* LastFrameScoreCalculationStrategy.swift */,
+			);
+			name = "Frame Score Calculation Strategy";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
